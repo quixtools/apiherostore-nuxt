@@ -1,0 +1,9 @@
+/*
+  *** z-index order ***
+  stickbar:       100
+  mainmenu:       200
+  mobile page:    500
+  poppanel:       1000
+  toast:          1500
+  modal/drawer:   2000
+*/
