@@ -14,6 +14,7 @@ export default defineNuxtConfig({
   },
   auth: {
     enableGlobalAppMiddleware: true,
+    origin: process.env.NUXT_PUBLIC_SITE_URL,
     baseURL: process.env.NUXT_PUBLIC_SITE_URL,
     provider: {
       type: 'authjs',
